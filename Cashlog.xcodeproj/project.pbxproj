@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		32385A99201CA71E0017DA3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32385A98201CA71E0017DA3C /* AppDelegate.swift */; };
-		32385A9B201CA71E0017DA3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32385A9A201CA71E0017DA3C /* ViewController.swift */; };
-		32385A9E201CA71E0017DA3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32385A9C201CA71E0017DA3C /* Main.storyboard */; };
-		32385AA0201CA71E0017DA3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32385A9F201CA71E0017DA3C /* Assets.xcassets */; };
 		32385AA3201CA71E0017DA3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32385AA1201CA71E0017DA3C /* LaunchScreen.storyboard */; };
+		3257B6D5201E46B80051FDD1 /* Transaction+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3257B6C6201E46B60051FDD1 /* Transaction+CoreDataProperties.swift */; };
+		3257B6D6201E46B80051FDD1 /* TransactionList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3257B6C7201E46B60051FDD1 /* TransactionList.xcdatamodeld */; };
+		3257B6D8201E46B80051FDD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3257B6CA201E46B60051FDD1 /* Assets.xcassets */; };
+		3257B6D9201E46B80051FDD1 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3257B6CB201E46B60051FDD1 /* Utils.swift */; };
+		3257B6DA201E46B80051FDD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3257B6CC201E46B60051FDD1 /* Main.storyboard */; };
+		3257B6DB201E46B80051FDD1 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3257B6CD201E46B60051FDD1 /* TableViewController.swift */; };
+		3257B6DC201E46B80051FDD1 /* Transaction+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3257B6CE201E46B60051FDD1 /* Transaction+CoreDataClass.swift */; };
+		3257B6DE201E46B80051FDD1 /* AddTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3257B6D0201E46B70051FDD1 /* AddTransactionViewController.swift */; };
+		3257B6DF201E46B80051FDD1 /* TransactionFetchedResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3257B6D1201E46B70051FDD1 /* TransactionFetchedResultsController.swift */; };
+		3257B6E1201E46B80051FDD1 /* AlertableError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3257B6D3201E46B70051FDD1 /* AlertableError.swift */; };
+		3257B6E2201E46B80051FDD1 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3257B6D4201E46B70051FDD1 /* CoreDataStack.swift */; };
+		3257B6E4201E477A0051FDD1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3257B6E3201E477A0051FDD1 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		32385A95201CA71E0017DA3C /* Cashlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cashlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32385A98201CA71E0017DA3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		32385A9A201CA71E0017DA3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		32385A9D201CA71E0017DA3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		32385A9F201CA71E0017DA3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32385AA2201CA71E0017DA3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32385AA4201CA71E0017DA3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3257B6C6201E46B60051FDD1 /* Transaction+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Transaction+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3257B6C8201E46B60051FDD1 /* TransactionList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TransactionList.xcdatamodel; sourceTree = "<group>"; };
+		3257B6CA201E46B60051FDD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3257B6CB201E46B60051FDD1 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		3257B6CC201E46B60051FDD1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3257B6CD201E46B60051FDD1 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3257B6CE201E46B60051FDD1 /* Transaction+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Transaction+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3257B6D0201E46B70051FDD1 /* AddTransactionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTransactionViewController.swift; sourceTree = "<group>"; };
+		3257B6D1201E46B70051FDD1 /* TransactionFetchedResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionFetchedResultsController.swift; sourceTree = "<group>"; };
+		3257B6D3201E46B70051FDD1 /* AlertableError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertableError.swift; sourceTree = "<group>"; };
+		3257B6D4201E46B70051FDD1 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		3257B6E3201E477A0051FDD1 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +73,19 @@
 			isa = PBXGroup;
 			children = (
 				32385A98201CA71E0017DA3C /* AppDelegate.swift */,
-				32385A9A201CA71E0017DA3C /* ViewController.swift */,
-				32385A9C201CA71E0017DA3C /* Main.storyboard */,
-				32385A9F201CA71E0017DA3C /* Assets.xcassets */,
+				3257B6CD201E46B60051FDD1 /* TableViewController.swift */,
+				3257B6D0201E46B70051FDD1 /* AddTransactionViewController.swift */,
+				3257B6E3201E477A0051FDD1 /* TableViewCell.swift */,
+				3257B6CA201E46B60051FDD1 /* Assets.xcassets */,
 				32385AA1201CA71E0017DA3C /* LaunchScreen.storyboard */,
+				3257B6CC201E46B60051FDD1 /* Main.storyboard */,
+				3257B6CB201E46B60051FDD1 /* Utils.swift */,
+				3257B6D3201E46B70051FDD1 /* AlertableError.swift */,
+				3257B6D4201E46B70051FDD1 /* CoreDataStack.swift */,
+				3257B6CE201E46B60051FDD1 /* Transaction+CoreDataClass.swift */,
+				3257B6C6201E46B60051FDD1 /* Transaction+CoreDataProperties.swift */,
+				3257B6D1201E46B70051FDD1 /* TransactionFetchedResultsController.swift */,
+				3257B6C7201E46B60051FDD1 /* TransactionList.xcdatamodeld */,
 				32385AA4201CA71E0017DA3C /* Info.plist */,
 			);
 			path = Cashlog;
@@ -123,9 +150,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3257B6DA201E46B80051FDD1 /* Main.storyboard in Resources */,
+				3257B6D8201E46B80051FDD1 /* Assets.xcassets in Resources */,
 				32385AA3201CA71E0017DA3C /* LaunchScreen.storyboard in Resources */,
-				32385AA0201CA71E0017DA3C /* Assets.xcassets in Resources */,
-				32385A9E201CA71E0017DA3C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,22 +163,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32385A9B201CA71E0017DA3C /* ViewController.swift in Sources */,
+				3257B6D9201E46B80051FDD1 /* Utils.swift in Sources */,
+				3257B6DB201E46B80051FDD1 /* TableViewController.swift in Sources */,
+				3257B6D6201E46B80051FDD1 /* TransactionList.xcdatamodeld in Sources */,
+				3257B6E2201E46B80051FDD1 /* CoreDataStack.swift in Sources */,
+				3257B6DC201E46B80051FDD1 /* Transaction+CoreDataClass.swift in Sources */,
+				3257B6DF201E46B80051FDD1 /* TransactionFetchedResultsController.swift in Sources */,
+				3257B6E4201E477A0051FDD1 /* TableViewCell.swift in Sources */,
+				3257B6E1201E46B80051FDD1 /* AlertableError.swift in Sources */,
+				3257B6D5201E46B80051FDD1 /* Transaction+CoreDataProperties.swift in Sources */,
 				32385A99201CA71E0017DA3C /* AppDelegate.swift in Sources */,
+				3257B6DE201E46B80051FDD1 /* AddTransactionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		32385A9C201CA71E0017DA3C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				32385A9D201CA71E0017DA3C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		32385AA1201CA71E0017DA3C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -322,6 +350,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3257B6C7201E46B60051FDD1 /* TransactionList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3257B6C8201E46B60051FDD1 /* TransactionList.xcdatamodel */,
+			);
+			currentVersion = 3257B6C8201E46B60051FDD1 /* TransactionList.xcdatamodel */;
+			path = TransactionList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 32385A8D201CA71E0017DA3C /* Project object */;
 }
