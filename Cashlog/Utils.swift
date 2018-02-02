@@ -17,9 +17,11 @@ struct Currency {
     func getSymbol() -> String {
         guard let symbol = regionLocale.currencySymbol else { return "$" }
         return symbol
+    
     }
 }
 
+//for fastly returning a formatted date with selected options
 extension DateFormatter {
     func stringWithOptions(dateStyle: DateFormatter.Style, date: NSDate, locale: Locale) -> String {
         self.dateStyle = dateStyle
