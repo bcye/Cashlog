@@ -14,7 +14,7 @@ class TableViewController: UITableViewController {
     //Array of all transactions used for the total
     var transactions = [Transaction]() {
         didSet {
-            var sum: Float = 0
+            var sum: Double = 0
             for transaction in transactions {
                 if transaction.isPositive {
                     sum += transaction.amount
@@ -48,7 +48,7 @@ class TableViewController: UITableViewController {
                 print("Error: \(error)")
             }
             
-            var sum: Float = 0
+            var sum: Double = 0
             for transaction in transactions {
                 if transaction.isPositive {
                     sum += transaction.amount

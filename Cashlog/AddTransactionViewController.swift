@@ -154,20 +154,25 @@ class AddTransactionViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func save(_ sender: Any) {
         
+        
         //Saves passed item
-        guard let text = titelInput.text, !text.isEmpty else { return }
+        guard let text = titelInput.text, !text.isEmpty, let amount = Double(amountLabel.text!) else {
+        return
+        }
+        
         
         let item = NSEntityDescription.insertNewObject(forEntityName: "Transaction", into: managedObjectContext) as! Transaction
         item.text = text
         item.isPositive = isIncome
-        item.amount = Float(amountLabel.text!)!
+        item.amount = amount
         item.date = NSDate()
-        managedObjectContext.saveChanges(viewController: self)
         print("Transaction successfully saved!")
         
+        managedObjectContext.saveChanges(viewController: self)
         //Calls the function to update the total
         let presentedBy = presentingViewController as? TableViewController
         presentedBy?.changeNavTitle()
+ 
         
         dismiss(animated: true, completion: nil)
     }

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		32385A99201CA71E0017DA3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32385A98201CA71E0017DA3C /* AppDelegate.swift */; };
 		32385AA3201CA71E0017DA3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32385AA1201CA71E0017DA3C /* LaunchScreen.storyboard */; };
+		32512E982029100200F4AD17 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32512E972029100200F4AD17 /* CoreData.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		3257B6D5201E46B80051FDD1 /* Transaction+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3257B6C6201E46B60051FDD1 /* Transaction+CoreDataProperties.swift */; };
 		3257B6D6201E46B80051FDD1 /* TransactionList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3257B6C7201E46B60051FDD1 /* TransactionList.xcdatamodeld */; };
 		3257B6D8201E46B80051FDD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3257B6CA201E46B60051FDD1 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		32385A98201CA71E0017DA3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32385AA2201CA71E0017DA3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32385AA4201CA71E0017DA3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32512E972029100200F4AD17 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		3257B6C6201E46B60051FDD1 /* Transaction+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Transaction+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3257B6C8201E46B60051FDD1 /* TransactionList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TransactionList.xcdatamodel; sourceTree = "<group>"; };
 		3257B6CA201E46B60051FDD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32512E982029100200F4AD17 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +61,7 @@
 			children = (
 				32385A97201CA71E0017DA3C /* Cashlog */,
 				32385A96201CA71E0017DA3C /* Products */,
+				32512E962029100200F4AD17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +93,14 @@
 				32385AA4201CA71E0017DA3C /* Info.plist */,
 			);
 			path = Cashlog;
+			sourceTree = "<group>";
+		};
+		32512E962029100200F4AD17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32512E972029100200F4AD17 /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,10 +315,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YB2V2H5Z44;
+				DEVELOPMENT_TEAM = PQGF24BYJ7;
 				INFOPLIST_FILE = Cashlog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bruceroettgers.Cashlog;
+				PRODUCT_BUNDLE_IDENTIFIER = dirkhulverscheidt.cashlog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,10 +330,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YB2V2H5Z44;
+				DEVELOPMENT_TEAM = PQGF24BYJ7;
 				INFOPLIST_FILE = Cashlog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bruceroettgers.Cashlog;
+				PRODUCT_BUNDLE_IDENTIFIER = dirkhulverscheidt.cashlog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

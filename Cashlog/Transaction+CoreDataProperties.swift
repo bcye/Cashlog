@@ -20,7 +20,7 @@ extension Transaction {
         return request
     }
 
-    @NSManaged public var amount: Float
+    @NSManaged public var amount: Double
     @NSManaged public var isPositive: Bool
     @NSManaged public var text: String?
     @NSManaged public var date: NSDate?

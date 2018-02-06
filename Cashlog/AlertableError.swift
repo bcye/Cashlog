@@ -27,6 +27,7 @@ enum ErrorCases: CustomStringConvertible {
     case saveFailed
     //frc = fetchedResultsController
     case frcFetchFailed
+    case falseInput
     case other
     
     var description: String {
@@ -34,6 +35,7 @@ enum ErrorCases: CustomStringConvertible {
         case .fetchFailed, .frcFetchFailed: return "Error while fetching data"
         case .loadingPersistentStoresFailed: return "Error while loading necessary objects for data handling"
         case .saveFailed: return "Error while saving the transaction"
+        case .falseInput: return "Given input is not valid"
         case .other: return "An unknown error happened"
         }
     }
