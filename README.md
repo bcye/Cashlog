@@ -1,3 +1,4 @@
+[![codecov](https://codecov.io/gh/bcye/Cashlog/branch/master/graph/badge.svg)](https://codecov.io/gh/bcye/Cashlog)
 [![Gitter](https://badges.gitter.im/cash-log/community.svg)](https://gitter.im/cash-log/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 # Cashlog
