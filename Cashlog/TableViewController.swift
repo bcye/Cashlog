@@ -12,19 +12,7 @@ import UIKit
 class TableViewController: UITableViewController {
     
     //Array of all transactions used for the total
-    var transactions = [Transaction]() {
-        didSet {
-            var sum: Double = 0
-            for transaction in transactions {
-                if transaction.isPositive {
-                    sum += transaction.amount
-                } else {
-                    sum -= transaction.amount
-                }
-            }
-            titleNav.title = "\(sum)\(currencySymbol)"
-        }
-    }
+    var transactions = [Transaction]()
     
     //Total Label
     @IBOutlet weak var titleNav: UINavigationItem!

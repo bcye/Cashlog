@@ -22,7 +22,18 @@
 		3257B6E1201E46B80051FDD1 /* AlertableError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3257B6D3201E46B70051FDD1 /* AlertableError.swift */; };
 		3257B6E2201E46B80051FDD1 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3257B6D4201E46B70051FDD1 /* CoreDataStack.swift */; };
 		3257B6E4201E477A0051FDD1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3257B6E3201E477A0051FDD1 /* TableViewCell.swift */; };
+		EDAA1DFF220E8EAE0008BA5E /* CashlogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAA1DFE220E8EAE0008BA5E /* CashlogTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDAA1E01220E8EAE0008BA5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32385A8D201CA71E0017DA3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32385A94201CA71E0017DA3C;
+			remoteInfo = Cashlog;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		32385A95201CA71E0017DA3C /* Cashlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cashlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,6 +53,9 @@
 		3257B6D3201E46B70051FDD1 /* AlertableError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertableError.swift; sourceTree = "<group>"; };
 		3257B6D4201E46B70051FDD1 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		3257B6E3201E477A0051FDD1 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		EDAA1DFC220E8EAE0008BA5E /* CashlogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashlogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAA1DFE220E8EAE0008BA5E /* CashlogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashlogTests.swift; sourceTree = "<group>"; };
+		EDAA1E00220E8EAE0008BA5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EDAA1DF9220E8EAE0008BA5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -60,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				32385A97201CA71E0017DA3C /* Cashlog */,
+				EDAA1DFD220E8EAE0008BA5E /* CashlogTests */,
 				32385A96201CA71E0017DA3C /* Products */,
 				32512E962029100200F4AD17 /* Frameworks */,
 			);
@@ -69,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				32385A95201CA71E0017DA3C /* Cashlog.app */,
+				EDAA1DFC220E8EAE0008BA5E /* CashlogTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +126,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EDAA1DFD220E8EAE0008BA5E /* CashlogTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDAA1DFE220E8EAE0008BA5E /* CashlogTests.swift */,
+				EDAA1E00220E8EAE0008BA5E /* Info.plist */,
+			);
+			path = CashlogTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -123,19 +155,42 @@
 			productReference = 32385A95201CA71E0017DA3C /* Cashlog.app */;
 			productType = "com.apple.product-type.application";
 		};
+		EDAA1DFB220E8EAE0008BA5E /* CashlogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDAA1E05220E8EAE0008BA5E /* Build configuration list for PBXNativeTarget "CashlogTests" */;
+			buildPhases = (
+				EDAA1DF8220E8EAE0008BA5E /* Sources */,
+				EDAA1DF9220E8EAE0008BA5E /* Frameworks */,
+				EDAA1DFA220E8EAE0008BA5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDAA1E02220E8EAE0008BA5E /* PBXTargetDependency */,
+			);
+			name = CashlogTests;
+			productName = CashlogTests;
+			productReference = EDAA1DFC220E8EAE0008BA5E /* CashlogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		32385A8D201CA71E0017DA3C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Bruce Röttgers";
 				TargetAttributes = {
 					32385A94201CA71E0017DA3C = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+					};
+					EDAA1DFB220E8EAE0008BA5E = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 32385A94201CA71E0017DA3C;
 					};
 				};
 			};
@@ -153,6 +208,7 @@
 			projectRoot = "";
 			targets = (
 				32385A94201CA71E0017DA3C /* Cashlog */,
+				EDAA1DFB220E8EAE0008BA5E /* CashlogTests */,
 			);
 		};
 /* End PBXProject section */
@@ -165,6 +221,13 @@
 				3257B6DA201E46B80051FDD1 /* Main.storyboard in Resources */,
 				3257B6D8201E46B80051FDD1 /* Assets.xcassets in Resources */,
 				32385AA3201CA71E0017DA3C /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAA1DFA220E8EAE0008BA5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,7 +252,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EDAA1DF8220E8EAE0008BA5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAA1DFF220E8EAE0008BA5E /* CashlogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDAA1E02220E8EAE0008BA5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32385A94201CA71E0017DA3C /* Cashlog */;
+			targetProxy = EDAA1E01220E8EAE0008BA5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		32385AA1201CA71E0017DA3C /* LaunchScreen.storyboard */ = {
@@ -340,6 +419,49 @@
 			};
 			name = Release;
 		};
+		EDAA1E03220E8EAE0008BA5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BN988BU552;
+				INFOPLIST_FILE = CashlogTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = hulverscheidtdirk.CashlogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cashlog.app/Cashlog";
+			};
+			name = Debug;
+		};
+		EDAA1E04220E8EAE0008BA5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BN988BU552;
+				INFOPLIST_FILE = CashlogTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = hulverscheidtdirk.CashlogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cashlog.app/Cashlog";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -357,6 +479,15 @@
 			buildConfigurations = (
 				32385AA8201CA71E0017DA3C /* Debug */,
 				32385AA9201CA71E0017DA3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDAA1E05220E8EAE0008BA5E /* Build configuration list for PBXNativeTarget "CashlogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAA1E03220E8EAE0008BA5E /* Debug */,
+				EDAA1E04220E8EAE0008BA5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
