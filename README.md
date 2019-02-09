@@ -1,3 +1,5 @@
+[![Gitter](https://badges.gitter.im/cash-log/community.svg)](https://gitter.im/cash-log/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 # Cashlog
 
 Cashlog is a simple iOS app to keep track of personal finances.
