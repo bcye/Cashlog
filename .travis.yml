@@ -1,8 +1,7 @@
 os: osx
-os: osx
 osx_image: xcode10.1
 language: swift
-xcode_workspace: WHIR.xcodeproj
+xcode_workspace: Cashlog.xcodeproj
 xcode_destination: platform=iOS Simulator,OS=12.0,name=iPhone XS
 xcode_scheme: Cashlog
 
